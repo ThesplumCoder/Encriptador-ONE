@@ -1,3 +1,55 @@
-body, p {
+/*
+ * Initial settings.
+ * */
+body, header, main, footer {
   margin: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+/* 
+ * Generic classes.
+ * */
+.container {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/*
+ * Header.
+ * */
+header {
+  background-color: #69D64B; 
+}
+
+header p{
+  margin: 10px;
+}
+
+/*
+ * Content.
+ * */
+#main-panel {
+  margin: 10px;
+  display: flex;
+  background-color: #A0DD90;
+}
+
+.container input{
+  display: block;
+}
+
+main div {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+/*
+ * Footer.
+ * */
+#footer-text {
+  display: inline;
 }
